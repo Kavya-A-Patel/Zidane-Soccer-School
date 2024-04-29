@@ -6,7 +6,12 @@ module.exports = {
     "./src/Components/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "icon-bg-blue": "#004aad",
+        "icon-bg-blue-invert": "#ffb552",
+      },
+    },
   },
   plugins: [],
 };

@@ -16,9 +16,6 @@ function App() {
         <>
           <NavBar />
           <Home />
-          <Footer />
-          <hr />
-          <CopyrightFooter />
         </>
       ),
     },
@@ -28,9 +25,6 @@ function App() {
         <>
           <NavBar />
           <About />
-          <Footer />
-          <hr />
-          <CopyrightFooter />
         </>
       ),
     },
@@ -40,9 +34,6 @@ function App() {
         <>
           <NavBar />
           <Gallery />
-          <Footer />
-          <hr />
-          <CopyrightFooter />
         </>
       ),
     },
@@ -52,9 +43,6 @@ function App() {
         <>
           <NavBar />
           <Join />
-          <Footer />
-          <hr />
-          <CopyrightFooter />
         </>
       ),
     },
@@ -63,6 +51,9 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
+      <Footer />
+      <hr />
+      <CopyrightFooter />
     </div>
   );
 }

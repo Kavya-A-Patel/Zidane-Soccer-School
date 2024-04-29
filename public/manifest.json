@@ -11,6 +11,11 @@
       "src": "FullLogo.png",
       "type": "image/png",
       "sizes": "559x447"
+    },
+    {
+      "src": "TabLogo.png",
+      "type": "image/png",
+      "sizes": "72x72"
     }
   ],
   "start_url": ".",

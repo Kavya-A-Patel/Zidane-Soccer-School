@@ -25,14 +25,14 @@ function NavBar() {
 
           <Link
             to="/join"
-            className="text-black bg-blue-300 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xs sm:text-sm px-1 sm:px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-2"
+            className="text-black bg-blue-300 hover:bg-blue-600 hover:text-white transition duration-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xs sm:text-sm px-1 sm:px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-2"
           >
             Join Now
           </Link>
           <button
             onClick={toggleMenu}
             type="button"
-            className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 transition duration-300"
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -71,7 +71,7 @@ function NavBar() {
             <li>
               <Link
                 to="/"
-                className="block py-2 pl-3 pr-4 text-white bg-opacity-0 rounded hover:bg-blue-700 hover:bg-opacity-100"
+                className="block py-2 pl-3 pr-4 text-white bg-opacity-0 rounded hover:bg-blue-700 hover:bg-opacity-100 transition duration-300"
                 aria-current="page"
               >
                 Home
@@ -80,7 +80,7 @@ function NavBar() {
             <li>
               <Link
                 to="/about"
-                className="block py-2 pl-3 pr-4 text-white bg-opacity-0 rounded hover:bg-blue-700 hover:bg-opacity-100"
+                className="block py-2 pl-3 pr-4 text-white bg-opacity-0 rounded hover:bg-blue-700 hover:bg-opacity-100 transition duration-300"
               >
                 About
               </Link>
@@ -88,7 +88,7 @@ function NavBar() {
             <li>
               <Link
                 to="/gallery"
-                className="block py-2 pl-3 pr-4 text-white bg-opacity-0 rounded hover:bg-blue-700 hover:bg-opacity-100"
+                className="block py-2 pl-3 pr-4 text-white bg-opacity-0 rounded hover:bg-blue-700 hover:bg-opacity-100 transition duration-300"
               >
                 Gallery
               </Link>

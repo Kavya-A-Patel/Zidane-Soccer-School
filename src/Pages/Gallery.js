@@ -109,7 +109,7 @@ function Gallery() {
         <div className="text-center mt-4">
           <button
             onClick={handleLoadMore}
-            className="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-800"
+            className="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-600"
           >
             Load More
           </button>

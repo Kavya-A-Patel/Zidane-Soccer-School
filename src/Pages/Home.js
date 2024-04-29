@@ -2,6 +2,8 @@ import React from "react";
 import HeroSection from "../Components/HeroSection";
 import CardInfo from "../Components/CardInfo";
 import CardBatch from "../Components/CardBatch";
+import MissionSection from "../Components/MissionSection";
+import VisionSection from "../Components/VisionSection";
 
 function Home() {
   return (
@@ -34,6 +36,8 @@ function Home() {
           locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d666.0695062338838!2d72.82064167224142!3d19.20139843929915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6bb8da40a1d%3A0xc9522614db9c6eca!2sBhoomi%20Park%20Phase%203%20A%20Wing!5e0!3m2!1sen!2sin!4v1714232108054!5m2!1sen!2sin"
         />
       </div>
+      <MissionSection />
+      <VisionSection />
     </div>
   );
 }

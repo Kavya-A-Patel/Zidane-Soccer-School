@@ -27,7 +27,7 @@ function CardBatch({
     <div
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="container text-gray-700 bg-blue-300 rounded-lg shadow-md mt-5 mb-5 w-72 sm:w-72 md:w-96 lg:w-96 xl:w-96 2xl:w-96 h-auto sm:h-auto md:h-auto lg:h-auto xl:h-auto 2xl:h-auto mr-64 ml-64 sm:mr-64 sm:ml-64 md:mr-3 md:ml-3 lg:mr-4 lg:ml-4 xl:mr-5 xl:ml-5 2xl:mr-16 2xl:ml-16 hover:text-white hover:bg-blue-900"
+      className="container text-gray-700 bg-blue-300 rounded-lg shadow-md mt-5 mb-5 w-72 sm:w-72 md:w-96 lg:w-96 xl:w-96 2xl:w-96 h-auto sm:h-auto md:h-auto lg:h-auto xl:h-auto 2xl:h-auto mr-64 ml-64 sm:mr-64 sm:ml-64 md:mr-3 md:ml-3 lg:mr-4 lg:ml-4 xl:mr-5 xl:ml-5 2xl:mr-16 2xl:ml-16 hover:text-white hover:bg-blue-900 transition duration-300"
     >
       <div className="relative mt-2">
         {/* Image */}
