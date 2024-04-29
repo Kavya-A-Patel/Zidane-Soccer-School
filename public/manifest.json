@@ -1,0 +1,20 @@
+{
+  "short_name": "Zidane Soccer School",
+  "name": "Zidane Soccer School",
+  "icons": [
+    {
+      "src": "Logo.png",
+      "type": "image/png",
+      "sizes": "297x72"
+    },
+    {
+      "src": "FullLogo.png",
+      "type": "image/png",
+      "sizes": "559x447"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
